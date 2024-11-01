@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="45751" started-at="2024-10-16T07:34:06Z" finished-at="2024-10-16T07:34:51Z">
+    <groups>
+      <group name="regression">
+        <method signature="DataProvExcercise.automate(java.lang.String)[pri:0, instance:amazonpage.DataProvExcercise@386f0da3]" name="automate" class="amazonpage.DataProvExcercise"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="DataProvExcercise.automate(java.lang.String)[pri:0, instance:amazonpage.DataProvExcercise@386f0da3]" name="automate" class="amazonpage.DataProvExcercise"/>
+        <method signature="DataProvExcercise.automate1(java.lang.String)[pri:0, instance:amazonpage.DataProvExcercise@386f0da3]" name="automate1" class="amazonpage.DataProvExcercise"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="DataProvExcercise.automate2(java.lang.String)[pri:0, instance:amazonpage.DataProvExcercise@386f0da3]" name="automate2" class="amazonpage.DataProvExcercise"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="45751" started-at="2024-10-16T07:34:06Z" finished-at="2024-10-16T07:34:51Z">
+      <class name="amazonpage.DataProvExcercise">
+        <test-method status="PASS" signature="automate(java.lang.String)[pri:0, instance:amazonpage.DataProvExcercise@386f0da3]" name="automate" duration-ms="16122" started-at="2024-10-16T07:34:06Z" data-provider="datac" finished-at="2024-10-16T07:34:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shoes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automate -->
+        <test-method status="PASS" signature="automate1(java.lang.String)[pri:0, instance:amazonpage.DataProvExcercise@386f0da3]" name="automate1" duration-ms="13433" started-at="2024-10-16T07:34:22Z" data-provider="datac" finished-at="2024-10-16T07:34:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shoes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automate1 -->
+        <test-method status="PASS" signature="automate2(java.lang.String)[pri:0, instance:amazonpage.DataProvExcercise@386f0da3]" name="automate2" duration-ms="16149" started-at="2024-10-16T07:34:35Z" data-provider="datac" finished-at="2024-10-16T07:34:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shoes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automate2 -->
+      </class> <!-- amazonpage.DataProvExcercise -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
